@@ -33,4 +33,4 @@ jobs:
 
       # Runs a set of commands using the runners shell
       - name: Run Black
-        run: black --check .
+        run: black --check . --exclude "Pipfile|Pipfile.lock"
