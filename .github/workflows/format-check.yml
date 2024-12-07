@@ -34,5 +34,3 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: Run Black
         run: black --check .
-          echo Add other actions to build,
-          echo test, and deploy your project.
